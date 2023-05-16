@@ -1,0 +1,65 @@
+#baslik
+{ 
+    color: rgb(221, 124, 12);
+    font-size: 3em;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#paragraf 
+{
+    color:rgb(117, 65, 65); 
+    font-size: 1.3em;  
+    font-weight: 900;
+    font-family: fantasy;  
+    margin-left:  140px; 
+    margin-right: 140px;
+}
+
+img
+{
+    margin-left: 50px;
+    width: 1000px;
+    height: 500px;
+}
+
+#ortala
+{
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+    color: rgb(45, 5, 2);
+}
+.sekmeler
+{
+    list-style-type: none;
+    display: inline; 
+    margin: 10px;
+    padding: 100px;
+}
+
+button
+{
+    border-radius: 30px;
+    border-color: rgb(93, 4, 4);
+    background-color: rgb(230, 236, 68);
+    margin-right: 10px;
+    padding: 10px;
+}
+nav 
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.ilk{
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+
