@@ -1,3 +1,39 @@
+body
+{
+    background-color: bisque;
+}
+
+.Tuşlar
+{
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+button
+{
+    border-radius: 30px;
+    border-color: rgb(93, 4, 4);
+    background-color: rgb(233, 236, 68);
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.sekmeler
+{
+    list-style-type: none;
+    display: inline; 
+    margin: 10px;
+    padding: 100px;
+}
+
+.TuşLinki
+{
+    text-decoration: line;
+    color: rgb(96, 3, 3);
+}
+
+
 #baslik
 { 
     color: rgb(221, 124, 12);
@@ -17,49 +53,61 @@
     margin-right: 140px;
 }
 
-img
+#Yazı1
+{
+    float: left;
+    margin-top: 130px;
+    margin-left: 160px;
+}
+
+#Beşiktaş
+{
+    margin-left: 130px;
+    width:300px;
+    height: 300px;
+}
+
+#Yazı2
+{
+    float: right;
+    margin-top: 150px;
+    margin-right: 140px;
+}
+
+#Barça
+{
+    margin-left: 180px;
+    width: 300px;
+    height: 300px;
+}
+
+#Yazı3
+{
+    text-align: center;
+}
+
+#Haikyuu
 {
     margin-left: 50px;
     width: 1000px;
     height: 500px;
 }
 
-#ortala
+#Yazı4
 {
-    text-align: center;
-}
-a
-{
-    text-decoration: none;
-    color: rgb(45, 5, 2);
-}
-.sekmeler
-{
-    list-style-type: none;
-    display: inline; 
-    margin: 10px;
-    padding: 100px;
+    float: left;
+    margin-top: 130px;
 }
 
-button
+#Basketbol
 {
-    border-radius: 30px;
-    border-color: rgb(93, 4, 4);
-    background-color: rgb(230, 236, 68);
-    margin-right: 10px;
-    padding: 10px;
+    margin-left: 130px;
+    width:300px;
+    height: 300px;
 }
-nav 
+
+.Link
 {
-    text-align: center;
-    margin-top: 40px;
+    text-decoration: line;
+    color: rgb(0, 102, 255);
 }
-.ilk{
-    margin: 0px;
-    padding: 10px;
-    list-style: none;
-}
-
-
-
-
