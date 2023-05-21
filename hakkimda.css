@@ -111,3 +111,43 @@ button
     text-decoration: line;
     color: rgb(0, 102, 255);
 }
+
+.form
+{
+    margin-left: 8px;
+    margin-top: 30px;
+}
+
+.formOgesi
+{
+    display: block;
+    margin-top: 5px;
+}
+
+#adsoyad
+{
+
+    width: 30%;
+}
+
+#eposta
+{
+
+    width: 30%;
+}
+
+.buton
+{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+#mesaj
+{
+    width: 35%;
+    height: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    resize: none;
+}

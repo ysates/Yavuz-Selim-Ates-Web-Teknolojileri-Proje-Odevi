@@ -1,0 +1,66 @@
+body
+{
+    background-color: palegreen;
+}
+
+.Tuşlar
+{
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+button
+{
+    border-radius: 30px;
+    border-color: rgb(93, 4, 4);
+    background-color: rgb(233, 236, 68);
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.sekmeler
+{
+    list-style-type: none;
+    display: inline; 
+    margin: 10px;
+    padding: 100px;
+}
+
+.TuşLinki
+{
+    text-decoration: line;
+    color: rgb(96, 3, 3);
+}
+
+#baslik
+{ 
+    color: rgb(221, 124, 12);
+    font-size: 3em;
+    font-family: fantasy;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#paragraf 
+{
+    color:rgb(117, 65, 65); 
+    font-size: 1.3em;  
+    font-weight: 900;
+    font-family: fantasy;  
+    margin-left:  140px; 
+    margin-right: 140px;
+}
+
+.Link
+{
+    text-decoration: line;
+    color: rgb(0, 102, 255);
+}
+
+#Medrese
+{
+    width: 600px;
+    height: 400px;
+    margin-left: 410px;
+}

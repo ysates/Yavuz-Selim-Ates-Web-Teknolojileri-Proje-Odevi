@@ -1,6 +1,6 @@
 body
 {
-    background-color: palegreen;
+    background-color:rgb(176, 255, 225);
 }
 
 .Tuşlar
@@ -50,4 +50,57 @@ button
     font-family: fantasy;  
     margin-left:  140px; 
     margin-right: 140px;
+}
+
+.Link
+{
+    text-decoration: line;
+    color: rgb(0, 102, 255);
+}
+
+.slayt
+{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.kaydırıcı
+{
+    position: absolute;
+    bottom: 150px;
+    left: 450px;
+    width: 500px;
+    height: 240px;
+    opacity: 0;
+    transition: opacity .4s linear;
+}
+
+.baslangıc
+{
+    opacity: 1;
+    color: #eee;
+}
+
+.kaydırıcı:nth-child(1) { background: url('Ballıca.jpg') no-repeat center/cover}
+.kaydırıcı:nth-child(2) { background: url('Talazan.jpg') no-repeat center/cover}
+.kaydırıcı:nth-child(3) { background: url('Yayla.jpg') no-repeat center/cover}
+.kaydırıcı:nth-child(4) { background: url('Sarma.jpg') no-repeat center/cover}
+
+.tus
+{
+    position: absolute;
+    bottom: -780px;
+    left: 640px;
+    cursor: default;
+}
+
+.tus button 
+{
+    font-size: 50px;
+    background-color: rgb(149, 0, 255);
+    color: #eee;
+    border-width: 7px;
+    border-color: black;
 }
